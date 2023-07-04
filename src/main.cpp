@@ -1,10 +1,12 @@
 #include <Arduino.h>
+#include "tca/tca.h"
+
+
 void setup() {
-// write your initialization code here
-Serial.begin(9600);
+   setupTca();
 }
 
 void loop() {
-// write your code here
-Serial.println("Bonjour le monde");
+    drawrect(0);// 0x70
+    drawrect(1);// 0x74
 }
