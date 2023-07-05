@@ -30,4 +30,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(Z_DUMMY_TARGET ${SRC_LIST} src/tca/tca.cpp src/tca/tca.h)
+add_executable(Z_DUMMY_TARGET ${SRC_LIST} src/tca/tca.cpp src/tca/tca.h src/element/Element.cpp src/element/Element.h src/core/core.cpp src/core/core.h src/core/core.h src/core/core.cpp)
